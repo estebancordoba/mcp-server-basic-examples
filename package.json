@@ -1,0 +1,28 @@
+{
+  "name": "@francoecp/test-mcp-server",
+  "version": "0.0.3",
+  "type": "module",
+  "main": "npm-mcp-server.ts",
+  "description": "Sample MCP Server",
+  "bin": {
+    "test-mcp-server": "./dist/npm-mcp-server.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "author": "Esteban Córdoba",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.11.1",
+    "express": "^5.1.0",
+    "zod": "^3.24.4"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.4",
+    "typescript": "^5.0.0"
+  }
+}

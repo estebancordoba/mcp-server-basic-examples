@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "weather-example": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "tsx",
+        "stdio-server.ts"
+      ],
+      "env": {}
+    },
+    "test-npm-mcp-server": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@francoecp/test-mcp-server@latest"
+      ],
+      "env": {}
+    }
+  }
+}
