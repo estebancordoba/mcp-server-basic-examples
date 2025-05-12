@@ -1,5 +1,7 @@
 # @francoecp/test-mcp-server
 
+[![npm](https://img.shields.io/npm/v/@francoecp/test-mcp-server)](https://www.npmjs.com/package/@francoecp/test-mcp-server)
+
 A sample Model Context Protocol (MCP) server implementation that provides a simple weather service.
 
 ## Description
